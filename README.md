@@ -11,3 +11,13 @@ Business Logic & Tech Stack:
 - The API need to have OpenAPI specification, no matter what your approach is code first or design first.
 - Project must use maven or gradle to build. Generate a spring boot project here: Spring Initializr 
 - Need to have JUnit Tests
+
+##How to run the app?
+Clone the repo and run the command
+`./mvnw spring-boot:run`
+
+After that run following `curl` commands
+
+<img width="1028" alt="image" src="https://user-images.githubusercontent.com/37356432/149896228-86dcb3cf-dac5-4bbc-909c-ccae4765181d.png">
+
+<img width="1023" alt="image" src="https://user-images.githubusercontent.com/37356432/149896336-f9682b89-0cdd-41d4-a54e-c96ef888d210.png">

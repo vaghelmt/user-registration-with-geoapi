@@ -12,7 +12,7 @@ Business Logic & Tech Stack:
 - Project must use maven or gradle to build. Generate a spring boot project here: Spring Initializr 
 - Need to have JUnit Tests
 
-##How to run the app?
+## How to run the app?
 Clone the repo and run the command
 `./mvnw spring-boot:run`
 

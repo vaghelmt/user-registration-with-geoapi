@@ -49,6 +49,8 @@ public class UserController {
 
         }
 
+        //TODO: Instead of sending error from here, create a new NotEligibleCountry exception
+        // and throw it from here. Then, handle the response from Controller advice
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Error: User is not eligible to register");
 
     }
